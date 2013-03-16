@@ -1,0 +1,291 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		090EBEBA1435472200DD1DA6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EBEB91435472200DD1DA6 /* UIKit.framework */; };
+		090EBEBC1435472200DD1DA6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 090EBEBB1435472200DD1DA6 /* Foundation.framework */; };
+		090EBEC21435472200DD1DA6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 090EBEC01435472200DD1DA6 /* InfoPlist.strings */; };
+		090EBEC41435472200DD1DA6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EBEC31435472200DD1DA6 /* main.m */; };
+		090EBEC81435472200DD1DA6 /* SSAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EBEC71435472200DD1DA6 /* SSAppDelegate.m */; };
+		090EBECB1435472200DD1DA6 /* SSViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 090EBECA1435472200DD1DA6 /* SSViewController.m */; };
+		090EBECE1435472200DD1DA6 /* SSViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 090EBECC1435472200DD1DA6 /* SSViewController.xib */; };
+		090EBEDA1435475100DD1DA6 /* ss.h in Sources */ = {isa = PBXBuildFile; fileRef = 090EBED41435475100DD1DA6 /* ss.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		090EBEB51435472200DD1DA6 /* SSEdit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SSEdit.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		090EBEB91435472200DD1DA6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		090EBEBB1435472200DD1DA6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		090EBEBF1435472200DD1DA6 /* SSEdit-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SSEdit-Info.plist"; sourceTree = "<group>"; };
+		090EBEC11435472200DD1DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		090EBEC31435472200DD1DA6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		090EBEC51435472200DD1DA6 /* SSEdit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SSEdit-Prefix.pch"; sourceTree = "<group>"; };
+		090EBEC61435472200DD1DA6 /* SSAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSAppDelegate.h; sourceTree = "<group>"; };
+		090EBEC71435472200DD1DA6 /* SSAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SSAppDelegate.m; sourceTree = "<group>"; };
+		090EBEC91435472200DD1DA6 /* SSViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SSViewController.h; sourceTree = "<group>"; };
+		090EBECA1435472200DD1DA6 /* SSViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; lineEnding = 0; path = SSViewController.m; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objc; };
+		090EBECD1435472200DD1DA6 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SSViewController.xib; sourceTree = "<group>"; };
+		090EBED41435475100DD1DA6 /* ss.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ss.h; sourceTree = "<group>"; };
+		090EBED51435475100DD1DA6 /* Data.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; lineEnding = 0; path = Data.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
+		090EBED61435475100DD1DA6 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		090EBED71435475100DD1DA6 /* Autoreleasepool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Autoreleasepool.h; sourceTree = "<group>"; };
+		090EBED81435475100DD1DA6 /* Dictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Dictionary.h; sourceTree = "<group>"; };
+		090EBED91435475100DD1DA6 /* m_processor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = m_processor.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		090EBEB21435472200DD1DA6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EBEBA1435472200DD1DA6 /* UIKit.framework in Frameworks */,
+				090EBEBC1435472200DD1DA6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		090EBEAA1435472200DD1DA6 = {
+			isa = PBXGroup;
+			children = (
+				090EBEBD1435472200DD1DA6 /* SSEdit */,
+				090EBEB81435472200DD1DA6 /* Frameworks */,
+				090EBEB61435472200DD1DA6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		090EBEB61435472200DD1DA6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				090EBEB51435472200DD1DA6 /* SSEdit.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		090EBEB81435472200DD1DA6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				090EBEB91435472200DD1DA6 /* UIKit.framework */,
+				090EBEBB1435472200DD1DA6 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		090EBEBD1435472200DD1DA6 /* SSEdit */ = {
+			isa = PBXGroup;
+			children = (
+				090EBEC61435472200DD1DA6 /* SSAppDelegate.h */,
+				090EBEC71435472200DD1DA6 /* SSAppDelegate.m */,
+				090EBEC91435472200DD1DA6 /* SSViewController.h */,
+				090EBECA1435472200DD1DA6 /* SSViewController.m */,
+				090EBECC1435472200DD1DA6 /* SSViewController.xib */,
+				090EBED41435475100DD1DA6 /* ss.h */,
+				090EBED51435475100DD1DA6 /* Data.h */,
+				090EBED61435475100DD1DA6 /* Person.h */,
+				090EBED71435475100DD1DA6 /* Autoreleasepool.h */,
+				090EBED81435475100DD1DA6 /* Dictionary.h */,
+				090EBED91435475100DD1DA6 /* m_processor.h */,
+				090EBEBE1435472200DD1DA6 /* Supporting Files */,
+			);
+			path = SSEdit;
+			sourceTree = "<group>";
+		};
+		090EBEBE1435472200DD1DA6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				090EBEBF1435472200DD1DA6 /* SSEdit-Info.plist */,
+				090EBEC01435472200DD1DA6 /* InfoPlist.strings */,
+				090EBEC31435472200DD1DA6 /* main.m */,
+				090EBEC51435472200DD1DA6 /* SSEdit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		090EBEB41435472200DD1DA6 /* SSEdit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 090EBED11435472200DD1DA6 /* Build configuration list for PBXNativeTarget "SSEdit" */;
+			buildPhases = (
+				090EBEB11435472200DD1DA6 /* Sources */,
+				090EBEB21435472200DD1DA6 /* Frameworks */,
+				090EBEB31435472200DD1DA6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SSEdit;
+			productName = SSEdit;
+			productReference = 090EBEB51435472200DD1DA6 /* SSEdit.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		090EBEAC1435472200DD1DA6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 090EBEAF1435472200DD1DA6 /* Build configuration list for PBXProject "SSEdit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 090EBEAA1435472200DD1DA6;
+			productRefGroup = 090EBEB61435472200DD1DA6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				090EBEB41435472200DD1DA6 /* SSEdit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		090EBEB31435472200DD1DA6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EBEC21435472200DD1DA6 /* InfoPlist.strings in Resources */,
+				090EBECE1435472200DD1DA6 /* SSViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		090EBEB11435472200DD1DA6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				090EBEC41435472200DD1DA6 /* main.m in Sources */,
+				090EBEC81435472200DD1DA6 /* SSAppDelegate.m in Sources */,
+				090EBECB1435472200DD1DA6 /* SSViewController.m in Sources */,
+				090EBEDA1435475100DD1DA6 /* ss.h in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		090EBEC01435472200DD1DA6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EBEC11435472200DD1DA6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		090EBECC1435472200DD1DA6 /* SSViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				090EBECD1435472200DD1DA6 /* en */,
+			);
+			name = SSViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		090EBECF1435472200DD1DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		090EBED01435472200DD1DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		090EBED21435472200DD1DA6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSEdit/SSEdit-Prefix.pch";
+				INFOPLIST_FILE = "SSEdit/SSEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		090EBED31435472200DD1DA6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SSEdit/SSEdit-Prefix.pch";
+				INFOPLIST_FILE = "SSEdit/SSEdit-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		090EBEAF1435472200DD1DA6 /* Build configuration list for PBXProject "SSEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EBECF1435472200DD1DA6 /* Debug */,
+				090EBED01435472200DD1DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		090EBED11435472200DD1DA6 /* Build configuration list for PBXNativeTarget "SSEdit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				090EBED21435472200DD1DA6 /* Debug */,
+				090EBED31435472200DD1DA6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 090EBEAC1435472200DD1DA6 /* Project object */;
+}
